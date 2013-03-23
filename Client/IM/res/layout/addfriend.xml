@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+		android:id="@+id/addFriendFriendLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@+string/addFriendFriendLabel"/>
+    
+    <EditText 
+		android:id="@+id/addFriendFriendInput" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="text" 
+		android:drawSelectorOnTop = "true"/>
+    
+    <Button
+        android:id="@+id/addFriendEnterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@+string/addFriendEnterButton" />
+    
+    <Button
+        android:id="@+id/addFriendBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@+string/addFriendBackButton" />
+
+</LinearLayout>

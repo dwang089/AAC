@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Users</title>
+	</head>
+
+	<style type="text/css">		
+		
+		input(type=submit) {
+			font-size: 24px
+		}
+		
+		hr {
+			margin: 20px auto;
+		}
+		
+		
+	</style>
+	
+	<body>
+		<label>
+			{{text}}
+		</label>
+		
+		<form method="post">
+			<label>
+				<div>username</div>
+				<input type="text" name="username", value="{{username}}">
+			</label>
+			
+			<label>
+				<div>password</div>
+				<input type="text" name="password", value="{{password}}">
+			</label>
+			
+			<label>
+				<div>name</div>
+				<input type="text" name="name", value="{{name}}">
+			</label>
+			
+			<label>
+				<div>email</div>
+				<input type="text" name="email", value="{{email}}">
+			</label>
+			
+			<input type="submit">
+		</form>
+		
+		<hr>
+		
+		{% for user in users %}
+			<div class="user">
+				<div class="user-username">{{user.username}}</div>(username)
+				<div class="user-password">{{user.password}}</div>(password)
+				<div class="user-name">{{user.name}}</div>(name)
+				<div class="user-email">{{user.email}}</div>(email)
+				<div class="user-online">{{user.online}}</div>(online)
+			</div>
+			<br>
+		{% endfor %}
+			
+	</body>
+	
+</html>

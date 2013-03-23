@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IMActivity!</string>
+    <string name="app_name">IM</string>
+    
+    <string name="displayTextBackButton">Back</string>
+    
+    <string name="signInUserNameLabel">User Name:</string>
+    <string name="signInPasswordLabel">Password:</string>
+    <string name="signInEnterButton">Enter</string>
+    <string name="signInSignUpButton">Sign Up</string>
+    <string name="signInRetrieveButton">Retrieve</string>
+    
+    <string name="mainMenuReadTextButton">Read Text Messages</string>
+    <string name="mainMenuSendTextButton">Send a Text Message</string>
+    <string name="mainMenuFriendsButton">Friends</string>
+    <string name="mainMenuSignOffButton">Sign Off</string>
+    
+    <string name="sendTextRecipientLabel">Send to:</string>
+    <string name="sendTextContentLabel">Message:</string>
+    <string name="sendTextSendButton">Send</string>
+    <string name="sendTextBackButton">Main</string>
+    
+    <string name="signUpUserNameLabel">User Name:</string>
+    <string name="signUpPasswordLabel">Password:</string>
+    <string name="signUpNameLabel">Name:</string>
+    <string name="signUpEmailLabel">Email:</string>
+    <string name="signUpEnterButton">Enter</string>
+    <string name="signUpCancelButton">Cancel</string>
+    
+	<string name="displayFriendBackButton">Back</string>
+	<string name="displayFriendAddButton">Add Friends</string>
+	
+	<string name="addFriendFriendLabel">Friend:</string>
+	<string name="addFriendEnterButton">Enter</string>
+	<string name="addFriendBackButton">Back</string>
+	
+	
+</resources>
