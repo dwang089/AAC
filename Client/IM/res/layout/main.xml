@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_centerHorizontal="true">
+
+    <TextView 
+		android:id="@+id/signInUserNameLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@+string/signInUserNameLabel"/>
+    
+    <EditText 
+		android:id="@+id/signInUserNameInput" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="text" 
+		android:drawSelectorOnTop = "true"/>
+    
+    <TextView 
+		android:id="@+id/signInPasswordLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@+string/signInPasswordLabel"/>
+    
+    <EditText 
+		android:id="@+id/signInPasswordInput" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="textPassword" 
+		android:drawSelectorOnTop = "true"/>
+ 
+	<Button
+        android:id="@+id/signInEnterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+string/signInEnterButton" />
+	
+	<Button
+        android:id="@+id/signInSignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+string/signInSignUpButton" />
+	
+
+</LinearLayout>
